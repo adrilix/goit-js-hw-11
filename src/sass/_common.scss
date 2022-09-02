@@ -1,1 +1,89 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+.is-hidden{
+    display: none;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(246, 246, 243);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(128, 128, 128);
+}
+
+img{
+    display: block;
+}
+
+body{
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    background-color: rgb(245, 241, 216);
+}
+
+.gallery{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 10;
+
+}
+
+.photo-card{
+    margin: 0 auto;
+    display: block;
+    border: solid 2px;
+    border-color: grey;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px grey
+}
+
+.list{
+    text-decoration: none;
+    color: black;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 232, 172);
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+
+}
+
+.search-form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(251, 247, 14);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(128, 128, 128);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.load-more {
+    font-size: x-large;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(177, 249, 148);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(128, 128, 128);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
